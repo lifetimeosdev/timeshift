@@ -5,7 +5,7 @@
 # Use at your own risk
 # Use at your own risk
 
-## My gold (experiment).Use at your own risk.
+## My goal (experiment and use carefully)
 1. Configure timeshift backup destination to a loop image file contains a luks encryption file system.
 1. **Must configure timeshift to backup manually and umount image file first.**
 1. And copy the image file to dropbox sync directory regularly for cloud backup.
