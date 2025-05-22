@@ -588,7 +588,7 @@ class BackupDeviceBox : Gtk.Box{
 
 		foreach(var disk in App.partitions) {
 			
-			if (disk.type != "disk") { continue; }
+			if (disk.type != "disk" && disk.type != "loop") { continue; }
 
 			model.append(out iter0, null);
 			model.set(iter0, 0, disk, -1);
